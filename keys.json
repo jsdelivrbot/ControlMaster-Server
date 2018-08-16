@@ -1,0 +1,6 @@
+{
+    "keyset":[
+        {"software": "youtube", "keys":[{"play":"k"},{"next":"l"},{"back":"j"}]},
+        {"software": "powerpoint", "keys":[{"play":"{F5}"},{"next":"l"},{"back":"j"}]}
+    ]
+}

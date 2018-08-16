@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+* {
+    -webkit-user-select: none;
+}
+:root {
+    --mainc: rgb(74, 100, 218);
+}
+body{
+    background: #f2f2f2;
+}
+#codepre{
+    top:50px;
+}
+nav{
+    background: var(--mainc);
+    height: 100px !important;
+    text-align: center;
+}
+.brand-logo{
+    font-family: 'Audiowide', cursive;
+}
+.codeTitle{
+    line-height: 150px;
+    font-size: 1.5em;  
+}
+.code{
+    font-size: 1.5em;
+}
+.btn-floating:hover{
+    background: var(--mainc)!important;
+}
+.remote{
+    text-align: center;
+    margin-top: 3em;
+}
+.getstarted{
+    max-height: 100% !important;
+    height: 100%;
+}
+.btn-play{
+    width: 8em !important;
+    height: 8em !important;
+    background: var(--mainc) !important;
+    
+}
+.btn-play i{
+    line-height: 1.7em !important;
+    font-size: 4em;
+}
+
+.btn-side {
+    width: 5.8em !important;
+    height: 5.1em !important;
+    padding: 0 !important;
+    border-radius: 30px;
+    margin: 1em;
+}
+.btn-side i{
+    font-size: 45px;
+    line-height: 1.5em;
+}
+.btn-reset{
+    background: var(--mainc);
+}
+.spinner-layer{
+    border-color: #fff !important;
+}
+.info{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+.info i{
+    font-size: 3em !important
+}
+.settings{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+}
+.settings i{
+    font-size: 3em !important
+}
+.status{
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    width: 100%;
+    font-size: 1.5em;
+}
+.status.disconnected:after{
+    content: "Disconnected";
+    color: red;
+    font-weight: 700;
+}
+.status.connected:after{
+    content: "Connected";
+    color: green;
+    font-weight: 700;
+}
+.status i{
+    padding: 5px;
+    font-size: 1.5em;
+}
+.status.disconnected i::before{
+    content: 'phonelink_off';
+    color: red;
+    vertical-align: -0.23em;
+}
+.status.connected i::before{
+    content: 'phonelink';
+    color: green;
+    vertical-align: -0.23em;
+}
+@media screen and (max-width: 338px){
+    .btn-side {
+        width: 4.8em !important;
+    }
+    .fixed-action-btn{
+        right: 10px !important;
+        bottom: 10px !important; 
+    }
+    .info i{
+        font-size: 2.5em !important; 
+    }
+    .settings i{
+        font-size: 2.5em !important; 
+    }
+}

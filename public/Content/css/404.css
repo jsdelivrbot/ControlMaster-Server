@@ -1,0 +1,24 @@
+.page{
+    color: #fff;
+    background-color: var(--mainc);
+    width: 100%;
+  }
+  .page .brand-logo{
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 4.1rem;
+    padding: 0;    
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    top:30vh;
+  }
+  .e-text{
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    top:41vh;
+    font-size: 3.0em;
+  }
